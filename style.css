@@ -1,0 +1,70 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 8px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 21px 0 12px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 11px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;              /* content-box: padding + border make it slightly wider than the button */
+  box-sizing: content-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  height: 16px;
+  margin: 0;
+  background: #fff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #757575;
+}
+
+input[type="date"] {
+  font-family: monospace;
+  font-size: 13px;
+  height: 16px;
+}
+
+textarea {
+  height: 198px;
+  font-family: monospace;
+  resize: both;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 37px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+}
